@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <foreignObject width="100%" height="100%">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <title>about:blank</title>
+        <link rel="shortcut icon" href="favicon.webp" />
+        <script src="https://cdn.jsdelivr.net/gh/zaka13x/waterproxy@master/scram/scramjet.all.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/zaka13x/waterproxy@master/baremux/index.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zaka13x/waterproxy@master/public/index.css" />
+        <script src="https://cdn.jsdelivr.net/gh/zaka13x/waterproxy@master/public/register-sw.js" defer="defer"></script>
+        <script src="https://cdn.jsdelivr.net/gh/zaka13x/waterproxy@master/public/search.js" defer="defer"></script>
+        <script src="https://cdn.jsdelivr.net/gh/zaka13x/waterproxy@master/public/cdn.js" defer="defer"></script>
+      </head>
+      <body>
+        <div title="Scramjet Logo" class="flex-center logo-wrapper header-center">
+          <img class="logo" src="101.png" alt="" />
+          <h1>WaterProxy (static)</h1>
+        </div>
+        <div class="flex-center desc left-margin">
+          <p>
+            Tip. Press enter to search or proxy a url (like searching youtube or typing discord.com) MAKE SURE TO HIT ENTER after that
+          </p>
+        </div>
+        <form id="sj-form" class="flex-center">
+          <input id="sj-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
+          <input id="sj-address" type="text" placeholder="Search the web freely" />
+        </form>
+        <div class="desc left-margin">
+          <p id="sj-error"></p>
+          <pre id="sj-error-code"></pre>
+        </div>
+        <footer>
+          <div>
+            <a title="The Mercury Workshop GitHub organization" href="https://github.com/MercuryWorkshop">Mercury Workshop</a>
+            <a title="The example demo app for Scramjet" href="https://github.com/MercuryWorkshop/Scramjet-Demo">GitHub</a>
+            <a title="License information" href="credits.html">Credits</a>
+          </div>
+          <div>
+            <span>&amp;copy; MW (and zaka13X) 2025</span>
+          </div>
+        </footer>
+      </body>
+    </html>
+  </foreignObject>
+</svg>
